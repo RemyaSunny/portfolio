@@ -1,0 +1,118 @@
+/* Basic CSS Reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #373736;
+    color: #fefeff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+header {
+    background-color: #010101;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    
+    justify-content: space-between;;
+}
+
+.brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #010101;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+.homepage-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    text-align: center; /* Center text */
+}
+
+.name {
+    font-size: 2em;
+    margin-right: 100px;
+}
+
+.image-container img {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    border-radius: 100%; /* Adjust the border radius to control the roundness */
+    overflow: hidden; /* Ensure the image stays within the rounded shape */
+}
+
+a {
+    color:rgb(246, 249, 249); /* Change to your desired color */
+    text-decoration: none; /* Optional: Remove underline */
+}
+
+a:hover {
+    color:rgb(50, 97, 3); /* Change to your desired hover color */
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #656363;
+}
+
+tr:hover {
+    background-color: #4a4949;
+}
+
